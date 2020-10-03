@@ -11,7 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -52,7 +52,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  font: 500 19px/21px "Roboto", arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -116,12 +116,12 @@ body {
 .main__subtitle {
   margin: 0 0 41px 0;
   font: 500 22px/26px "Roboto", arial, helvetica, sans-serif;
-  padding-right: 303px;
+  max-width: 455px;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  font: 500 19px/24px "Roboto", arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   padding: 18px 22px;
@@ -134,7 +134,7 @@ body {
   opacity: .5;
 }
 
-.main_image {
+.main__image {
   width: 770px;
   height: 657px;
 }
