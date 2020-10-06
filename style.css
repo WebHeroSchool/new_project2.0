@@ -11,7 +11,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 126px;
 }
 
 .logo {
@@ -104,9 +104,8 @@ body {
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 78px 65% 136px 0;
   background: top right no-repeat url(img/mainImg.svg);
-  background-position-y: -60px;
 }
 
 .main__title {
@@ -143,3 +142,125 @@ body {
 .main__title-text_highlight {
   background: #ecf3ff;
 }
+
+@madia (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    text-align: center;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+  }
+
+  .main__title {
+    margin-bottom: 44px;
+    font: bold 30px/39px "pt_serif", arial, helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .main__button {
+   font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
+}
+
+
+
+
+
+
+
+Экран на 1024px
+
+@madia (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
+
+  .header {
+!  margin-bottom: 126px;
+  }
+
+  .menu__item {
+  ! margin-right: 26px;
+  font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
+
+  .main {
+  !  padding: 78px 65% 136px 0;
+  }
+
+  .main__title {
+    font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+  !  max-width: 455px;
+  }
+
+  .main__button {
+    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    padding: 14px 16px;
+
+  .main__image {
+    width: 514px;
+    height: 439px;
+  }
+
+
+
+
+  Экран на 1366px (совпадает все, кроме width: 67%; и ! их не проверяла )
+
+  @madia (min-width: 1025px) and (max-width: 1366px) {
+    .wrapper {
+      width: 67%;
+    }
+
+    .header {
+  !  margin-bottom: 126px;
+    }
+
+    .menu__item {
+    ! margin-right: 26px;
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    }
+
+    .main {
+    !  padding: 78px 65% 136px 0;
+    }
+
+    .main__title {
+      font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+    }
+
+    .main__subtitle {
+      font: 500 18px/21px "Roboto", arial, helvetica, sans-serif;
+    !  max-width: 455px;
+    }
+
+    .main__button {
+      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+      padding: 14px 16px;
+
+    .main__image {
+      width: 514px;
+      height: 439px;
+    }
