@@ -293,29 +293,29 @@ body {
 
  /* Экран 1024px */
 
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .wrapper {
-      width: 91%;
-    }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
 
-   .header {
-     margin-bottom: 66px;
-   }
+  .header {
+    margin-bottom: 66px;
+  }
 
-   .menu__item {
-     font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
-   }
+  .menu__item {
+   font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
 
-   .main {
-     padding: 35px 50% 126px 0;
-     background: top right no-repeat url(img/mainImg1.svg);
-     background-position-y: 20px;
-   }
+  .main {
+   padding: 35px 50% 126px 0;
+   background: top right no-repeat url(img/mainImg1.svg);
+   background-position-y: 20px;
+  }
 
-   .main__title {
-     margin: 0 0 39px 0;
-     font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
-   }
+  .main__title {
+    margin: 0 0 39px 0;
+    font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+  }
 
    .main__subtitle {
      margin: 0 0 35px 10px;
@@ -331,38 +331,38 @@ body {
 
 /* Экран 1366px */
 
-  @media (min-width: 1025px) and (max-width: 1366px) {
-    .wrapper {
-      width: 68%;
-    }
-
-   .header {
-     margin-bottom: 66px;
-   }
-
-   .menu__item {
-     font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
-   }
-
-   .main {
-     padding: 35px 50% 126px 0;
-     background: top right no-repeat url(img/mainImg1.svg);
-     background-position-y: 20px;
-   }
-
-    .main__title {
-      margin: 0 0 39px 0;
-      font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
-    }
-
-    .main__subtitle {
-      margin: 0 0 35px 10px;
-      font: 500 17px/22px "Roboto", arial, helvetica, sans-serif;
-      max-width: 350px;
-    }
-
-    .main__button {
-      font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
-      padding: 16px 20px;
-    }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .wrapper {
+    width: 68%;
   }
+
+  .header {
+    margin-bottom: 66px;
+  }
+
+  .menu__item {
+    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+  }
+
+  .main {
+    padding: 35px 50% 126px 0;
+    background: top right no-repeat url(img/mainImg1.svg);
+    background-position-y: 20px;
+  }
+
+  .main__title {
+    margin: 0 0 39px 0;
+    font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    margin: 0 0 35px 10px;
+    font: 500 17px/22px "Roboto", arial, helvetica, sans-serif;
+    max-width: 350px;
+  }
+
+  .main__button {
+    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    padding: 16px 20px;
+  }
+}
