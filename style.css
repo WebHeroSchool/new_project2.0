@@ -148,8 +148,6 @@ body {
   background: #ecf3ff;
 }
 
-/* Мобильные устройства */
-
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -209,8 +207,6 @@ body {
     padding: 14px 22px;
     font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
   }
-
-/* Бургер меню */
 
   #menu__toggle {
     opacity: 0;
@@ -291,8 +287,6 @@ body {
   }
 }
 
- /* Экран 1024px */
-
 @media (min-width: 769px) and (max-width: 1024px) {
   .wrapper {
     width: 91%;
@@ -328,8 +322,6 @@ body {
     padding: 16px 20px;
   }
 }
-
-/* Экран 1366px */
 
 @media (min-width: 1025px) and (max-width: 1366px) {
   .wrapper {
