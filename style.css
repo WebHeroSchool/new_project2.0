@@ -80,8 +80,8 @@ body {
   margin-right: 21px;
 }
 
- .menu__item:nth-child(4) {
-   margin-right: 21px;
+.menu__item:nth-child(4) {
+  margin-right: 21px;
 }
 
 .menu__item::after {
@@ -355,8 +355,8 @@ body {
     margin-right: 23px;
   }
 
-   .menu__item:nth-child(4) {
-     margin-right: 24px;
+  .menu__item:nth-child(4) {
+    margin-right: 24px;
   }
 
   .menu__item:last-child {
@@ -408,15 +408,15 @@ body {
     margin-right: 20px;
   }
 
-   .menu__item:nth-child(3) {
-     margin-right: 23px;
+  .menu__item:nth-child(3) {
+    margin-right: 23px;
   }
 
-   .menu__item:nth-child(4) {
-     margin-right: 24px;
+  .menu__item:nth-child(4) {
+    margin-right: 24px;
   }
 
-   .menu__item:last-child {
+  .menu__item:last-child {
     margin-right: 4px;
   }
 
