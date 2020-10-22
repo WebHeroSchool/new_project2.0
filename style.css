@@ -154,11 +154,23 @@ body {
   margin-left: 5px;
   text-decoration: none;
   border-radius: 4px;
+  animation: pulse 1s infinite;
   transition: opacity .5s;
 }
 
 .main__button:hover {
   opacity: .5;
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #0056ec;
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px #c8dbfb;
+  }
 }
 
 .main__title-text_highlight {
