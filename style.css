@@ -221,21 +221,24 @@ body {
   .main__title {
     margin: 0 0 33px 6px;
     padding-top: 25px;
-    font: bold 30px/39px "pt_serif", arial, helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 39px;
     text-align: center;
   }
 
   .main__subtitle {
     margin: 0 25px;
     padding-bottom: 25px;
-    font: 500 16px/19px "Roboto", arial, helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
   }
 
   .main__button {
     padding: 14px 21px;
     margin: 0 auto 25px;
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   #menu__toggle {
@@ -352,7 +355,8 @@ body {
   }
 
   .menu__item {
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .menu__item:nth-child(1) {
@@ -383,17 +387,20 @@ body {
 
   .main__title {
     margin: 0 0 38px 0;
-    font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 66px;
   }
 
   .main__subtitle {
     margin: 0 0 40px 0;
-    font: 500 18px/22px "Roboto", arial, helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
     max-width: 350px;
   }
 
   .main__button {
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
     padding: 13px 20px;
     margin: auto;
   }
@@ -409,7 +416,8 @@ body {
   }
 
   .menu__item {
-    font: 500 14px/16px "Roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .menu__item:nth-child(1) {
@@ -440,17 +448,20 @@ body {
 
   .main__title {
     margin: 0 0 37px 0;
-    font: bold 50px/66px "pt_serif", arial, helvetica, sans-serif;
+    font-size: 50px;
+    line-height: 66px;
   }
 
   .main__subtitle {
     margin: 0 5px 39px 0;
-    font: 500 18px/22px "Roboto", arial, helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
     max-width: 350px;
   }
 
   .main__button {
-    font: 500 14px/15px "Roboto", arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 15px;
     padding: 15px 21px;
     margin-left: 1px;
   }
